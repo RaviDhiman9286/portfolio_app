@@ -8,8 +8,7 @@ def send_email(message):
     port = 465
 
     username = "ravi070589@gmail.com"
-    password = "avhwambbpkraxawx"
-    #password = os.getenv("PASSWORD")
+    password = os.getenv("PASSWORD")
     """here above we are trying to save the password in plain text so we have created env variable in windows and saved
     the password as PASSWORD variable"""
 
